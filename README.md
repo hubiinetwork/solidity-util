@@ -11,9 +11,9 @@ In a project based on [Truffle framework](https://truffleframework.com/) you may
 ```javascript
 pragma solidity ^0.5.0;
 
-import "solidity-util/lib/Strings.sol";
-import "solidity-util/lib/Integers.sol";
-import "solidity-util/lib/Addresses.sol";
+import "solidity-util/contracts/Strings.sol";
+import "solidity-util/contracts/Integers.sol";
+import "solidity-util/contracts/Addresses.sol";
 
 contract MyContract {
     using Strings for string;
